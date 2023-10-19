@@ -34,3 +34,9 @@ if mario.respond_to?("show") #判断对象是否存在Show方法
   mario.send(:show,123) #如果存在那么调用(带参数)
 end
 
+
+# puts "title is" + mario.respond_to?("title").to_s
+# puts "price is " + mario.respond_to?("price").to_s
+
+mario.price = 150
+mario.show(0)
