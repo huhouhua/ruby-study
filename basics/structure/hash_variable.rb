@@ -18,4 +18,3 @@ player ={
 player[:name] = "harden1"
 puts player
 puts player[:name] + ","+ player[:age].to_s+ ","+player[:point].to_s
-
