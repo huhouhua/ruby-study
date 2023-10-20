@@ -18,9 +18,11 @@ games.append("张4","张5")
 #删除数据
 games.delete("张4")
 
+games << "张三"
 #遍历数组，带索引
 games.each_with_index do | game,i|
   puts "#{i}.#{game}"
 end
 
 puts games.join(",")
+
